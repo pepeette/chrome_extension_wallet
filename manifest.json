@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "My Loyalty Card Wallet",
+    "version": "1.0",
+    "description": "A Chrome extension to manage your loyalty cards",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "permissions": ["storage"],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "web_accessible_resources": ["popup.css", "popup.js"]
+  }
+  

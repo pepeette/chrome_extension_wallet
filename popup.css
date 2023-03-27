@@ -1,0 +1,59 @@
+/* Set the background color of the popup */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Style the form for adding a new loyalty card */
+#add-card-form {
+  margin: 10px;
+}
+
+/* Style the table for displaying the existing loyalty cards */
+#loyalty-cards-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#loyalty-cards-table th, #loyalty-cards-table td {
+  text-align: left;
+  padding: 8px;
+}
+
+#loyalty-cards-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#loyalty-cards-table th {
+  background-color: #FF5630;
+  color: white;
+}
+
+/* Style the buttons for deleting and editing loyalty cards */
+.button {
+  background-color: #FF5630; /* red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Style the table for displaying the loyalty cards */
+#loyalty-cards-table {
+  margin-top: 20px;
+}
+
+#loyalty-cards-table th {
+  background-color: #FF5630;
+  color: white;
+}
+
+#loyalty-cards-table td.barcode {
+  font-family: Code128;
+  font-size: 28px;
+  line-height: 1.5em;
+}
